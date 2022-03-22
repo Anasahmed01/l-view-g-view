@@ -204,7 +204,7 @@ class Homeapp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 135, left: 70),
+                  margin: const EdgeInsets.only(top: 135, left: 60),
                   child: const Text(
                     "Backup",
                     style: TextStyle(
@@ -222,14 +222,14 @@ class Homeapp extends StatelessWidget {
               children: [
                 const Center(
                   child: Icon(
-                    Icons.access_alarm,
+                    Icons.bluetooth,
                     size: 50,
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 135, left: 70),
+                  margin: const EdgeInsets.only(top: 135, left: 55),
                   child: const Text(
-                    "Clock",
+                    "Bluetooth",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22.0,
