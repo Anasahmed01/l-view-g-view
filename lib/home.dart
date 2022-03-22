@@ -135,7 +135,7 @@ class Homeapp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 135, left: 70),
+                  margin: const EdgeInsets.only(top: 135, left: 50),
                   child: const Text(
                     "Language",
                     style: TextStyle(
@@ -153,14 +153,14 @@ class Homeapp extends StatelessWidget {
               children: [
                 const Center(
                   child: Icon(
-                    Icons.access_alarm,
+                    Icons.account_circle,
                     size: 50,
                   ),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 135, left: 70),
                   child: const Text(
-                    "Clock",
+                    "Account",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22.0,
