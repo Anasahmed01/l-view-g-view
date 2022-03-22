@@ -125,7 +125,7 @@ class Homeapp extends StatelessWidget {
             ),
           ),
           Card(
-            color: Colors.orange,
+            color: const Color.fromARGB(255, 67, 253, 244),
             child: Stack(
               children: [
                 const Center(
@@ -148,7 +148,7 @@ class Homeapp extends StatelessWidget {
             ),
           ),
           Card(
-            color: Colors.orange,
+            color: const Color.fromARGB(255, 255, 217, 0),
             child: Stack(
               children: [
                 const Center(
@@ -158,7 +158,7 @@ class Homeapp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 135, left: 70),
+                  margin: const EdgeInsets.only(top: 135, left: 55),
                   child: const Text(
                     "Account",
                     style: TextStyle(
@@ -171,19 +171,19 @@ class Homeapp extends StatelessWidget {
             ),
           ),
           Card(
-            color: Colors.orange,
+            color: const Color.fromARGB(255, 255, 0, 255),
             child: Stack(
               children: [
                 const Center(
                   child: Icon(
-                    Icons.access_alarm,
+                    Icons.screen_rotation,
                     size: 50,
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 135, left: 70),
+                  margin: const EdgeInsets.only(top: 135, left: 25),
                   child: const Text(
-                    "Clock",
+                    "Screen Rotate",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22.0,
@@ -194,19 +194,19 @@ class Homeapp extends StatelessWidget {
             ),
           ),
           Card(
-            color: Colors.orange,
+            color: const Color.fromARGB(255, 117, 99, 73),
             child: Stack(
               children: [
                 const Center(
                   child: Icon(
-                    Icons.access_alarm,
+                    Icons.backup,
                     size: 50,
                   ),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 135, left: 70),
                   child: const Text(
-                    "Clock",
+                    "Backup",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22.0,
