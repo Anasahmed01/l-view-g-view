@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gview/first.dart';
+import 'package:gview/logout.dart';
 import 'package:gview/profile.dart';
 import 'package:gview/settings.dart';
 
@@ -86,6 +87,22 @@ class Homeapp extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const Settingpage(),
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'Logout',
+                style: TextStyle(fontSize: 20, color: Colors.white),
+              ),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp,
+                  color: Colors.grey),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Logoutapp(),
                   ),
                 );
               },

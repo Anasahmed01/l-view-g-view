@@ -8,15 +8,23 @@ class Firstpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 255, 0, 0),
         centerTitle: true,
-        title: const Text("MyFirst"),
+        title: const Text(
+          "MyFirst",
+          style: TextStyle(color: Colors.white, fontSize: 30),
+        ),
         titleTextStyle: const TextStyle(
           fontSize: 30.0,
         ),
       ),
       body: const Center(
-        child: Text("This is first page"),
+        child: Text(
+          "This is First page",
+          style: TextStyle(color: Colors.white, fontSize: 30),
+        ),
       ),
     );
   }
