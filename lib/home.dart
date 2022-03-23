@@ -9,7 +9,9 @@ class Homeapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor: Colors.black,
         centerTitle: true,
         title: const Text("MyApp"),
         titleTextStyle: const TextStyle(
@@ -17,6 +19,7 @@ class Homeapp extends StatelessWidget {
         ),
       ),
       drawer: Drawer(
+        backgroundColor: Colors.black,
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
@@ -38,8 +41,12 @@ class Homeapp extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text('First Page'),
-              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              title: const Text(
+                'First Page',
+                style: TextStyle(fontSize: 20, color: Colors.white),
+              ),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp,
+                  color: Colors.grey),
               onTap: () {
                 Navigator.push(
                   context,
@@ -50,8 +57,12 @@ class Homeapp extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Profile Page'),
-              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              title: const Text(
+                'Profile Page',
+                style: TextStyle(fontSize: 20, color: Colors.white),
+              ),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp,
+                  color: Colors.grey),
               onTap: () {
                 Navigator.push(
                   context,
@@ -62,8 +73,14 @@ class Homeapp extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Settings Page'),
-              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              title: const Text(
+                'Settings Page',
+                style: TextStyle(fontSize: 20, color: Colors.white),
+              ),
+              trailing: const Icon(
+                Icons.keyboard_arrow_right_sharp,
+                color: Colors.grey,
+              ),
               onTap: () {
                 Navigator.push(
                   context,
