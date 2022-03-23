@@ -25,10 +25,16 @@ class Homeapp extends StatelessWidget {
                 'anasahmedyt321@gmail.com',
                 style: TextStyle(fontSize: 20),
               ),
-              accountName: Text('Anas Ahmed'),
+              accountName: Text(
+                'Anas Ahmed',
+                style: TextStyle(fontSize: 20),
+              ),
               currentAccountPicture: CircleAvatar(
-                backgroundImage: NetworkImage(
-                    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Ficon-profile-circle-shadow-color-dark-blue-background-color-white-icon-profile-circle-shadow-color-dark-blue-image194699287&psig=AOvVaw1MhrRzbuwvdIeVn7OIQi8o&ust=1648128226397000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDOo56q3PYCFQAAAAAdAAAAABAD"),
+                backgroundColor: Colors.black,
+                child: Text(
+                  "A",
+                  style: TextStyle(fontSize: 50),
+                ),
               ),
             ),
             ListTile(
