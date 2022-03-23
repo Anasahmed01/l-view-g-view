@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gview/first.dart';
+import 'package:gview/profile.dart';
+import 'package:gview/settings.dart';
 
 class Homeapp extends StatelessWidget {
   const Homeapp({Key? key}) : super(key: key);
@@ -16,30 +19,53 @@ class Homeapp extends StatelessWidget {
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
-          children: const <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.blue,
+          children: <Widget>[
+            const UserAccountsDrawerHeader(
+              accountEmail: Text(
+                'anasahmedyt321@gmail.com',
+                style: TextStyle(fontSize: 20),
               ),
-              child: Text(
-                'Drawer Header',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 24,
-                ),
+              accountName: Text('Anas Ahmed'),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Ficon-profile-circle-shadow-color-dark-blue-background-color-white-icon-profile-circle-shadow-color-dark-blue-image194699287&psig=AOvVaw1MhrRzbuwvdIeVn7OIQi8o&ust=1648128226397000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDOo56q3PYCFQAAAAAdAAAAABAD"),
               ),
             ),
             ListTile(
-              leading: Icon(Icons.message),
-              title: Text('Messages'),
+              title: const Text('First Page'),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Firstpage(),
+                  ),
+                );
+              },
             ),
             ListTile(
-              leading: Icon(Icons.account_circle),
-              title: Text('Profile'),
+              title: const Text('Profile Page'),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Profilepage(),
+                  ),
+                );
+              },
             ),
             ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Settings'),
+              title: const Text('Settings Page'),
+              trailing: const Icon(Icons.keyboard_arrow_right_sharp),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const Settingpage(),
+                  ),
+                );
+              },
             ),
           ],
         ),
