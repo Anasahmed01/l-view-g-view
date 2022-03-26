@@ -112,6 +112,7 @@ Widget globetext3() {
 
 Widget textfields() {
   return const TextField(
+    style: TextStyle(color: Colors.white),
     decoration: InputDecoration(
       enabledBorder: OutlineInputBorder(
         borderSide:
@@ -130,6 +131,7 @@ Widget textfields() {
 
 Widget textfields2() {
   return const TextField(
+    style: TextStyle(color: Colors.white),
     decoration: InputDecoration(
       enabledBorder: OutlineInputBorder(
         borderSide:
