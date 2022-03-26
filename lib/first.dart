@@ -13,17 +13,264 @@ class Firstpage extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 255, 0, 0),
         centerTitle: true,
         title: const Text(
-          "MyFirst",
+          "List View",
           style: TextStyle(color: Colors.white, fontSize: 30),
         ),
         titleTextStyle: const TextStyle(
           fontSize: 30.0,
         ),
       ),
-      body: const Center(
-        child: Text(
-          "This is First page",
-          style: TextStyle(color: Colors.white, fontSize: 30),
+      body: SafeArea(
+        child: ListView(
+          children: const [
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage(
+                    "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
+              ),
+              trailing: Text(
+                "1:46 am",
+                style: TextStyle(color: Colors.white),
+              ),
+              title: Text(
+                "Anas Ahmed",
+                style: TextStyle(color: Colors.white),
+              ),
+              subtitle: Text(
+                "Kahan ho??",
+                style: TextStyle(color: Colors.white),
+              ),
+              tileColor: Color.fromARGB(255, 53, 50, 50),
+            ),
+          ],
         ),
       ),
     );

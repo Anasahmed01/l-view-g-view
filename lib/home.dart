@@ -34,11 +34,8 @@ class Homeapp extends StatelessWidget {
                 style: TextStyle(fontSize: 20),
               ),
               currentAccountPicture: CircleAvatar(
-                backgroundColor: Colors.black,
-                child: Text(
-                  "A",
-                  style: TextStyle(fontSize: 50),
-                ),
+                backgroundImage: NetworkImage(
+                    "https://tse4.mm.bing.net/th?id=OIP.PYipJ_hSncugM2SwnZitvgHaEK&pid=Api&P=0&w=310&h=174"),
               ),
             ),
             ListTile(
