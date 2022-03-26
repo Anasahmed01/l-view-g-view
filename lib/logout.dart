@@ -150,6 +150,7 @@ Widget textfields2() {
 
 Widget textfields3() {
   return const TextField(
+    style: TextStyle(color: Colors.white),
     decoration: InputDecoration(
       enabledBorder: OutlineInputBorder(
         borderSide:
