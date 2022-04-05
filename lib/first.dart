@@ -22,8 +22,8 @@ class Firstpage extends StatelessWidget {
       ),
       body: SafeArea(
         child: ListView(
-          children: const [
-            ListTile(
+          children: [
+            const ListTile(
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
@@ -42,7 +42,7 @@ class Firstpage extends StatelessWidget {
               ),
               tileColor: Color.fromARGB(255, 53, 50, 50),
             ),
-            ListTile(
+            const ListTile(
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://tse1.mm.bing.net/th?id=OIP.YD_v7nOU7gykm8uPQ4DXewHaJ4&pid=Api&rs=1&c=1&qlt=95&w=83&h=111"),
@@ -61,6 +61,27 @@ class Firstpage extends StatelessWidget {
               ),
               tileColor: Color.fromARGB(255, 53, 50, 50),
             ),
+
+            // Chate tile with parameater
+
+            chatTile(
+                "Areeb",
+                const Color.fromARGB(255, 255, 255, 255),
+                "ma ghr a gaya",
+                "4:30 pm",
+                "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80"),
+            chatTile(
+                "Bilal",
+                const Color.fromARGB(255, 255, 255, 255),
+                "4:00 bajy aja",
+                "4:35 pm",
+                "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"),
+            chatTile(
+                "Anas",
+                const Color.fromARGB(255, 255, 255, 255),
+                "aya",
+                "4:38 pm",
+                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"),
           ],
         ),
       ),
