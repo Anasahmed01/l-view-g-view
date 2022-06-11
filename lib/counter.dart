@@ -31,7 +31,7 @@ class _DashboardState extends State<Dashboard> {
                 onPressed: () {
                   increamentValue();
                 },
-                child: Text('add'))
+                child: const Text('add'))
           ],
         ),
       ),
